@@ -21,7 +21,7 @@ def about():
 def contact():
     return render_template("contact.html")
 
-@app.route(category):
+@app.route(category)
 def category():
     return render_template("category.html")
 
