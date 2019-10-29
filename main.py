@@ -6,7 +6,7 @@ Home = "/"
 about = "/about.html"
 contact = "/contact.html"
 category = "/category.html"
-bry = "/brython.html"
+bry = "/brythonTest.html"
 
 
 #Website routes
@@ -28,7 +28,7 @@ def category():
 
 @app.route(bry)
 def bry():
-    return render_template('brython.html')
+    return render_template('brythonTest.html')
 
 
 #Run
