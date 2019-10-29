@@ -3,9 +3,9 @@ from flask import *
 
 app = Flask(__name__)
 Home = "/"
-about = "/about"
-contact = "/contact"
-category = "/Scategory"
+about = "/about.html"
+contact = "/contact.html"
+category = "/category.html"
 
 
 #Website routes
