@@ -12,9 +12,9 @@
     def echo(ev):
         alert(document["zone"].value)
     
-    document["mybutton"].bind("click", echo)
+    document["SaveButton"].bind("click", echo)
     </script>
-    <input id="zone">
-    <button id="mybutton">click !</button>
+    <input type="text" id="zone" name="article_text" style="width: 300px;" />
+    <button id="SaveButton">Save</button>
     </body>
 </html>
