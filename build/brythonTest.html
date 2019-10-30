@@ -1,0 +1,20 @@
+
+<html>
+    <head>
+    <script src="/brython.js"></script>
+    </head>
+    <body onload="brython()">
+    <script type="text/python">
+    from browser import document, alert
+    
+    # bind event 'click' on button to function echo
+    
+    def echo(ev):
+        alert(document["zone"].value)
+    
+    document["SaveButton"].bind("click", echo)
+    </script>
+    <textarea name="zone" cols="40" rows="30"></textarea>
+    <button id="SaveButton">Save</button>
+    </body>
+</html>
