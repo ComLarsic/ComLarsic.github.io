@@ -14,12 +14,12 @@
     
     def write(ev):
 
-        page[numb] = open(f"{numb}.html", "w+")
+        page[numb] = open(f"{numb}.html","w+")
         page.write(zone)
         numb += 1
     
     document["SaveButton"].bind("click", write)
-    
+
     </script>
     <textarea id="zone" name="zone" cols="40" rows="30"></textarea>
     <button id="SaveButton">Save</button>
