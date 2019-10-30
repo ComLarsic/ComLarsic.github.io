@@ -6,6 +6,7 @@ Home = "/"
 about = "/about.html"
 contact = "/contact.html"
 category = "/category.html"
+blog_post = "/blog-post.html"
 bry = "/brythonTest.html"
 
 
@@ -29,6 +30,10 @@ def category():
 @app.route(bry)
 def bry():
     return render_template('brythonTest.html')
+
+@app.route(blog_post)
+def blog():
+    return render_template('blog-post.html')
 
 
 #Run
