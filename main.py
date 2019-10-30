@@ -23,10 +23,6 @@ def about():
 def contact():
     return render_template("contact.html")
 
-@app.route(category)
-def category():
-    return render_template("category.html")
-
 @app.route(bry)
 def bry():
     return render_template('brythonTest.html')

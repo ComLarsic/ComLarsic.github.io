@@ -5,14 +5,18 @@
     </head>
     <body onload="brython()">
     <script type="text/python">
-    from browser import document, alert
+    from browser import document, 
     
+
+    numb = 1
     # bind event 'click' on button to function echo
     
-    def echo(ev):
-        alert(document["zone"].value)
+    def write(ev):
+        page[numb] = open(numb + ".html", "t")
+        page.write(zone)
+        numb += 1
     
-    document["SaveButton"].bind("click", echo)
+    document["SaveButton"].bind("click", write)
     </script>
     <textarea id="zone" name="zone" cols="40" rows="30"></textarea>
     <button id="SaveButton">Save</button>
