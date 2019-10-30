@@ -13,7 +13,7 @@
     # bind event 'click' on button to function echo
     
     def write(ev):
-        page[numb] = open(numb + ".html", "t")
+        page[numb] = open(f"{numb}.html", "t")
         page.write(zone)
         numb += 1
     
