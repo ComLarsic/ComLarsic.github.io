@@ -12,8 +12,9 @@
     page = [""]
     # bind event 'click' on button to function echo
     
-    def write(ev):
-        page[numb] = open(f"{numb}.html", "t")
+    def write(ev):Test article
+
+        page[numb] = open(f"{numb}.html", "w+")
         page.write(zone)
         numb += 1
     
