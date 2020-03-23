@@ -272,6 +272,10 @@ button,
 [type="submit"] {
   -webkit-appearance: button;
 }
+centre
+{
+  text-align:center;
+}
 
 button:not(:disabled),
 [type="button"]:not(:disabled),
