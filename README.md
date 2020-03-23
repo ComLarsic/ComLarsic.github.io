@@ -1,1 +1,1 @@
-# [The ComLarsic website]
+# The ComLarsic website
